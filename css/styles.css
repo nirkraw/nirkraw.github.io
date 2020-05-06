@@ -517,6 +517,20 @@ mark,
   margin-bottom: 20px;
 }
 
+#contact {
+ background-color: rgb(32, 212, 176);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.icons > i {
+  padding-top: 20px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -10165,6 +10179,7 @@ h3 {
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   /* opacity: 1; */
   cursor: auto;

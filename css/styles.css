@@ -511,6 +511,12 @@ mark,
   justify-content: space-evenly;
 }
 
+.profile-picture {
+  border-radius: 50px;
+  margin-left: 470px;
+  margin-bottom: 20px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;

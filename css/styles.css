@@ -394,6 +394,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  color: black;
 }
 
 .display-1 {
@@ -526,6 +527,11 @@ mark,
 
 #contact {
  background-color: rgb(32, 212, 176);
+}
+
+#skills {
+  background-color: rgb(158, 240, 223);
+  /* background-color: white; */
 }
 
 .icons {
@@ -6162,6 +6168,12 @@ a.close.disabled {
 
 .bg-primary {
   background-color: #1abc9c !important;
+  /* background-color: white !important; */
+ 
+}
+
+#about {
+  background-color: white;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10058,6 +10070,27 @@ h3 {
   }
 }
 
+.node {
+  height: 175px;
+  width: 175px;
+}
+
+.HTML-logo {
+  margin-top: 20px;
+  height: 155px;
+  width: 155px;
+}
+
+.socket-io-logo {
+  margin-top: 17px;
+  height: 150px;
+  width: 200px;
+}
+
+.skills-header {
+  color: white;
+}
+
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
@@ -10215,6 +10248,15 @@ h3 {
   overflow: hidden;
   text-align: center;
 }
+
+.learn-more {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: white;
+  font-size: 28px;
+}
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;

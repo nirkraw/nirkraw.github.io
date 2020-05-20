@@ -480,6 +480,10 @@ mark,
   height: auto;
 }
 
+.project-title {
+  text-align: center;
+}
+
 .portfolio-item-description {
   margin-top: 25px;
   z-index: 2;
@@ -10209,6 +10213,7 @@ h3 {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  text-align: center;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
